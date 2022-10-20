@@ -1,9 +1,9 @@
 
 
-const CartWidget = (clases) => {
+const CartWidget = ({clases}) => {
     return (
         <>
-            <h1>Carrito</h1>
+            <button className={clases}>🛒</button>
         </>
     );
 }
