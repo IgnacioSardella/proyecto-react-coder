@@ -1,0 +1,9 @@
+.item-detail{
+    max-width: 40vw;
+    min-height: 42.2vh;
+    margin-top: 18vh;
+}
+
+.img-fluid{
+    width: 480px !important;
+}

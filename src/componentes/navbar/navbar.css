@@ -2,7 +2,7 @@
 
 
 .navbar{
-    background-color: #243773 !important; 
+    background-color: #00438a !important; 
 }
 .navbar-toggler{
     font-size: 1rem;
@@ -15,17 +15,17 @@
     font-family: 'Jost', 'sans-serif';
     font-weight: 500;
     font-size: 1rem;
-    color: #e9dc28;
+    color: #e9bb03;
     margin-right: 0;
 }
 .navbar-nav{
     margin-left: 1rem;
 }
-.nav-link{
+.btn-section{
     color: white;
     font-family: 'Jost', 'sans-serif';
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 @media (min-width: 420px){
     .navbar-toggler{
@@ -37,10 +37,6 @@
     }
     .logo{
         font-size: 1.4rem;
-    }
-    
-    .nav-link{
-        font-size: 1.2rem;
     }
 }
 @media (min-width: 992px){
