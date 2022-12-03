@@ -8,7 +8,6 @@
 }
 .card-title{
     font-size: 1.1rem;
-    height: 5vh;
 }
 .card-text{
     font-size: 1rem;
@@ -33,13 +32,12 @@
 
 @media (min-width: 992px) {
     .card-img-top{
-        width: 10vw;
+        width: 15vw;
     }
 }
 
 @media (max-width: 1800px) {
     .card-title{
         font-size: 0.95rem;
-        height: 8vh;
     }
 }

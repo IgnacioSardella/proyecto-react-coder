@@ -1,5 +1,5 @@
 .contador1{
-    gap: 1rem;
+    gap: 2vw;
 }
 
 .btn-primary{
@@ -9,5 +9,4 @@
 .span-contador{
     font-size: 1rem;
     text-align: center;
-    width: 4em;
 }

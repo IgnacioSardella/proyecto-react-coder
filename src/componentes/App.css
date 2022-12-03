@@ -1,6 +1,6 @@
 .App{
     min-height: 100vh;
-    background-image: url(https://i.pinimg.com/originals/93/f4/41/93f44130795b7f3a341485d531d2d8b8.jpg);
+    background-image: url("../../public/img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

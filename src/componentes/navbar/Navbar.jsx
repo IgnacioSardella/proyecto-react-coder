@@ -1,6 +1,5 @@
 import "./navbar.css"
 import { Link } from "react-router-dom";
-import FormBusqueda from '../FormBusqueda/FormBusqueda';
 import Secciones from "./Secciones/Secciones";
 import CartWidget from "../CartWidget/CartWidget";
 
@@ -16,13 +15,12 @@ const Navbar = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                     </button>
-                    <CartWidget clases={"cart-widget btn px-4 mb-2 ms-1 d-lg-none"}/>
+                    <CartWidget display={"d-flex d-lg-none me-3"} clases={"cart-widget btn px-4 mb-2 ms-1"}/>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <Secciones/>
-                <FormBusqueda busqueda={"Buscar Productos"}/>
                 </div>
-                <CartWidget clases={"cart-widget btn px-4 mb-2 ms-1 d-none d-lg-block"}/>
+                <CartWidget display={"d-none d-lg-flex me-5"} clases={"cart-widget btn px-4 mb-2 ms-1"}/>
             </div>
         </nav>
     );

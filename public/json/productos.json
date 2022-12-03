@@ -6,7 +6,7 @@
         "tipo": "Adulto",
         "precio": 15999,
         "stock": 8,
-        "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d94fbf4a70884a228009af01016426f0_9366/Camiseta_Alternativa_Boca_Juniors_22-23_Blanco_IB9458_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/boca-suplente.png?alt=media&token=e3e44336-c8c9-4708-b5aa-fbf76b361e44"
     },
 
     {   
@@ -16,7 +16,7 @@
         "tipo": "Adulto", 
         "precio": 17999, 
         "stock": 15,
-        "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/42f6e0d4f39047e8b476aee60109bc4c_9366/Camiseta_Titular_River_Plate_22-23_Blanco_GB7592_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/river-titular.png?alt=media&token=16e57d65-235f-45b7-88cc-b06883044aa8"
     },
 
     {   
@@ -26,7 +26,7 @@
         "tipo": "Adulto", 
         "precio": 20999, 
         "stock": 7,
-        "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/argentina-messi.png?alt=media&token=2c693b3c-a7e6-49d7-9d79-9fd3b503aae9"
     },
 
     {   
@@ -36,7 +36,7 @@
         "tipo": "Niño", 
         "precio": 14999, 
         "stock": 10,
-        "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f6d0edfe98d54d46ad08aeca013e9f68_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8423_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/argentina-messi-ni%C3%B1o.png?alt=media&token=1ee721fc-ed6e-438f-9547-0c29a902a420"
     },
 
     {   
@@ -46,7 +46,7 @@
         "tipo": "Adulto", 
         "precio": 9999, 
         "stock": 8,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ecd858c399024005959fab1300ef0f49_9366/Shorts_Titular_Argentina_Negro_FS6573_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/short-arg-titular.png?alt=media&token=1a57ec33-7f32-49d7-a539-6a4440502e17"
     },
 
     {   
@@ -56,7 +56,7 @@
         "tipo": "Adulto", 
         "precio": 17999, 
         "stock": 11,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4fcfb797d457430eaccaaec200dafeb7_9366/Camiseta_Titular_Boca_Juniors_22-23_Azul_HE6323_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/boca-titular.png?alt=media&token=7d5b5845-510a-4756-839b-95138b8d4bbc"
     },
 
     {   
@@ -66,7 +66,7 @@
         "tipo": "Adulto", 
         "precio": 9999, 
         "stock": 13,
-        "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/72d4bd50e7634532a685ae2e015cc297_9366/Short_Argentina_Blanco_FL9020_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/short-arg-blanco.png?alt=media&token=7c589a51-fea1-4ea1-8162-eb573680bf41"
     },
     
     {   
@@ -76,7 +76,7 @@
         "tipo": "Adulto", 
         "precio": 21999, 
         "stock": 12,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/10fb0c9ed72749409ec1aec400d30641_9366/Camiseta_Uniforme_de_Suplente_Real_Madrid_22-23_Violeta_H18489_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/rm-altern.png?alt=media&token=bbc2a3a0-ac34-41dc-b598-b19c6148750a"
     },
 
     {   
@@ -86,7 +86,7 @@
         "tipo": "Niño", 
         "precio": 14999, 
         "stock": 9,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1796e5026a124cee989daef900e90b45_9366/Camiseta_Alternativa_Argentina_22_Azul_HF1490_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/arg-violeta.png?alt=media&token=2cec574d-b304-4ade-834f-49c0c20e92cb"
     },
 
     {   
@@ -96,7 +96,7 @@
         "tipo": "Adulto", 
         "precio": 8999, 
         "stock": 7,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/37f05b4ebf77486598dfaf01014db1d4_9366/Short_Uniforme_Alternativo_River_Plate_22-23_Rojo_HE6300_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/short-river-altern.png?alt=media&token=dc9cd8da-1add-4a63-92e6-78150d1e02d3"
     },
 
     {   
@@ -106,7 +106,7 @@
         "tipo": "Niño", 
         "precio": 13999, 
         "stock": 22,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6a7d6fa0280d4d7fabedaec20122a6fe_9366/Camiseta_Titular_Boca_Juniors_22-23_Azul_HE6324_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/boca-titular-ni%C3%B1o.png?alt=media&token=cd4b705d-ca8e-4b33-9dd0-beba1010833f"
     },
 
     {   
@@ -116,6 +116,6 @@
         "tipo": "Adulto", 
         "precio": 18999, 
         "stock": 14,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/300a18d6beb14749b117ae270110d706_9366/Camiseta_Uniforme_de_Suplente_Juventus_22-23_Negro_HD2015_01_laydown.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-coder-a81be.appspot.com/o/juve-suplente.png?alt=media&token=a068722a-b8ff-4a36-9955-de8b132b1236"
     }
 ]
