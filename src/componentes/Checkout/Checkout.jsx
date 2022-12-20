@@ -1,25 +1,35 @@
 import React from 'react'
 import './Checkout.css'
-import { Link } from "react-router-dom";
-import { useState } from 'react';
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext"; 
 import { createOrdenCompra } from '../../assets/firebase';
 import '../Cart/Cart.css'
+import { useNavigate } from 'react-router-dom';
 
 const Checkout = () => {
 
+    const { cart, emptyCart, totalPrice} = useContext(CartContext)
+    
     const datosFormulario = React.useRef()
+    let navigate = useNavigate()
     const consultarForm = (e) => {
         e.preventDefault()
         const dataForm = new FormData(datosFormulario.current)
         const value = Object.fromEntries(dataForm)
-        JSON.stringify(value)
-        console.log(value);
-        createOrdenCompra(value, totalPrice(), Date.now()).then(orden => console.log(orden))
-        e.target.reset()
+        createOrdenCompra(value, totalPrice())
+        .then((orden) => {
+            alert(`Su orden ${orden.id} fue creada con exito`)
+            console.log(orden);
+            emptyCart()
+            e.target.reset()
+            navigate("/");
+        })
+        .catch((error) => {
+            alert("Su orden no fue creada con exito")
+            console.error(error);
+        })
+        
     }
-    const {cart, totalPrice} = useContext(CartContext)
     return (
         <>
             <div className="container p-5">

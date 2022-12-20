@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc,} from "firebase/firestore"
+import {getFirestore, collection, addDoc, getDocs, getDoc, doc,} from "firebase/firestore"
 
 const firebaseConfig = {
     apiKey: process.env.API_KEY,
@@ -41,14 +41,13 @@ const getProducto = async (id) => {
     return item
 }
 
-const createOrdenCompra = async (cliente, preTotal, fecha) => {
+const createOrdenCompra = async (cliente, preTotal) => {
     const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
         nombre: cliente.nombre,
         dni: cliente.dni,
         email: cliente.email,
         direccion: cliente.direccion,
         telefono: cliente.phone,
-        fecha: fecha,
         precioTotal: preTotal
     })
 
