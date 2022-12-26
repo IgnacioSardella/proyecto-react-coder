@@ -12,7 +12,7 @@ const ItemDetailContainer = () => {
         getProducto(id).then(prod => {
             setProducto(prod)
         })
-    }, []);
+    }, [id]);
 
     return (
         <div className="container">
